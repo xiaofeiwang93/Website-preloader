@@ -1,0 +1,136 @@
+/* ------------------- Preloader -------------------*/
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0, .5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 998;
+}
+
+
+.preloader-1 {
+    margin: 100px auto 0;
+    width: 300px;
+    height: 12px;
+}
+
+.preloader-1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    color: #e3b00b;
+    margin: 5px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+
+.preloader-1 .line {
+    width: 5px;
+    height: 30px;
+    background: #e3b00b;
+    margin:  0.5px;
+    margin-top: 20px;
+    display: inline-block;
+    animation: opacity-1 1200ms infinite ease-in-out;
+}
+
+.preloader-1 .line-1 {
+    animation-delay: 800ms;
+}
+
+.preloader-1 .line-2 {
+    animation-delay: 600ms;
+}
+
+.preloader-1 .line-3 {
+    animation-delay: 400ms;
+}
+
+.preloader-1 .line-4 {
+    animation-delay: 200ms;
+}
+
+.preloader-1 .line-6 {
+    animation-delay: 200ms;
+}
+
+.preloader-1 .line-7 {
+    animation-delay: 400ms;
+}
+
+.preloader-1 .line-8 {
+    animation-delay: 600ms;
+}
+
+.preloader-1 .line-9 {
+    animation-delay: 800ms;
+}
+
+.preloader-1 .line-10 {
+    animation-delay: 1000ms;
+}
+
+@keyframes opacity-1 {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*
+.preloader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin-left: -30px;
+    margin-top: -30px;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    z-index: 999;
+    /*-animation: spin 2s infinite linear;
+    -webkit-animation: spin2 2s infinite linear;
+}
+@media (min-width: 768px) {
+    .preloader {
+        width: 100px;
+        height: 100px;
+    }
+}*/
+
+/*@-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}*/
